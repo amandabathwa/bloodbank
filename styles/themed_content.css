@@ -1,0 +1,287 @@
+div.back_link {
+  padding-top: 10px;
+  float: none;
+  position: static;
+}
+
+div.back_link .back_glyph {
+}
+
+div.back_link .back_text {
+}
+
+div.schedule_container {
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+}
+div.schedule_summary {
+  padding-top: 10px;
+  padding-left: 20px;
+  border-bottom: 2px solid #DCDCDC;
+}
+div.schedule_slot {
+  padding: 0px;
+  text-align: center;
+  border-bottom: 1px solid #DCDCDC;
+}
+.schedule_slot_unavailable {
+  padding: 8px;
+  text-align: center;
+  display: block;
+  color: #c9c9c9;
+  font-weight: bold;
+}
+.schedule_slot_available, .schedule_slot_appointment_link {
+  padding: 8px;
+  text-align: center;
+  display: block;
+  color: #00416b;
+}
+.schedule_slot_available:hover, .schedule_slot_appointment_link:hover {
+  background: #00416b;
+  padding: 8px;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+.schedule_slot_available_count {
+  margin-left: 10px;
+}
+.schedule_slot_appointment {
+  margin-left: 10px;
+}
+
+/*CSS for messages*/
+div.info, div.success, div.warning, div.error {
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-height: 50px;
+  height: auto;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+/* CSS for validation errors */
+label.error[generated="true"] {
+  font-size: 14px;
+  padding: 5px !important;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+.error {
+  background-color: #f2dede;
+}
+.warning {
+  background-color: #fcf8e3;
+}
+.info {
+  background-color: #d9edf7;
+}
+.success {
+  background-color: #dff0d8;
+}
+.floatLeft {
+   float:  left;
+   padding: 10px;
+}
+
+.floatRight {
+  float:  right;
+  padding: 10px;
+}
+div.setting {
+  border:  solid 1px #cccccc;
+  background-color: whiteSmoke;
+  padding:10px;
+  min-height:65px;
+}
+
+div.setting div.description {
+  padding-top:3px;
+}
+.border {
+   padding: 10px; border: 1px solid gainsboro; background: white; 
+}
+.round {
+  border-bottom-left-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  border-top-left-radius: 4px 4px;
+  border-top-left-radius: 4px 4px;
+  border-top-right-radius: 4px 4px;
+  border-top-right-radius: 4px 4px;
+  -webkit-box-shadow: #gainsboro 0px 0px 5px;
+  -webkit-box-shadow: #gainsboro 0px 0px 5px;
+  background: white;
+  padding: 8px;
+}
+button.btn-glyphicon {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+div.home_link {
+  float: right; position: relative; top: -43px;
+}
+.tips {
+   padding: 10px; border: 1px solid gainsboro; background: white; 
+}
+.welcome_icon {
+  border: 1px solid #DCDCDC;
+  padding-top: 10px;
+}
+.sub_area {
+  border: solid 1px #E1E1E8;
+  background-color: #F7F7F9;
+  padding: 10px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.sub_area .table-responsive {
+  background-color: #fff;
+}
+
+.tab_section {
+  border-left: 1px solid #DCDCDC;
+  border-right: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  padding: 10px 20px;
+}
+
+#popup_links a i {
+  vertical-align: middle;
+}
+
+/* Social Media Login Styling */
+.auth-choices {
+  margin-top: 50px;
+  position: relative;
+}
+.auth-choices .horizontal_or {
+    background: #d9d9d9 none repeat scroll 0 0;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 9px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 25px;
+     margin: -15px auto 30px;
+}
+.auth-btn, .auth-btn .icon {
+    border-radius: 5px;
+}
+.auth-btn {
+    background: transparent none repeat scroll 0 0;
+    cursor: pointer;
+    display: table;
+    font-weight: bold;
+    height: 37px;
+    line-height: 1.2em;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding: 0 10px 0 45px;
+    position: relative;
+    width: 130px;
+}
+.auth-btn .icon {
+    background-repeat: no-repeat;
+    display: block;
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 37px;
+}
+.auth-btn:hover .icon {
+    border-radius: 0;
+}
+.auth-btn .message {
+    display: table-cell;
+    vertical-align: middle;
+}
+.auth-btn:hover .message {
+    color: #fff;
+}
+.auth-btn.auth-btn-facebook {
+    color: #3b5998;
+}
+.auth-btn.auth-btn-facebook:hover, .auth-btn.auth-btn-facebook .icon {
+    background-color: #3b5998;
+}
+.auth-btn.auth-btn-facebook:hover .icon {
+    background-color: transparent;
+}
+.auth-btn.auth-btn-google {
+    color: #dd4b39;
+}
+.auth-btn.auth-btn-google:hover, .auth-btn.auth-btn-google .icon {
+    background-color: #dd4b39;
+}
+.auth-btn.auth-btn-google:hover .icon {
+    background-color: transparent;
+}
+.auth-choices {
+    margin-top: 23px;
+    padding: 0 90px;
+}
+.auth-btn.auth-btn-facebook, .auth-btn.auth-btn-google, .auth-btn.auth-btn-facebook, .auth-btn.auth-btn-google {
+    float: none;
+    margin: auto auto 15px;
+}
+.auth-choices {
+    min-width: 150px;
+    padding: 0;
+}
+.clearfix {
+    display: block;
+}
+.auth-btn.auth-btn-facebook {
+    float: left;
+}
+.auth-btn.auth-btn-google {
+    float: right;
+}
+.external-choices {
+    float: left;
+    padding-right: 29px;
+}
+.external-choices .info {
+    line-height: 1.5em;
+    padding: 0 5px 0 20px;
+}
+.external-choices {
+    border-bottom: 3px solid #ebebeb;
+    margin: 0 -130px;
+    padding: 0 60px 35px;
+}
+.external-choices {
+    float: none;
+    margin: 25px auto auto;
+    padding-right: 0;
+    padding-top: 25px;
+}
+.auth-btn.auth-btn-facebook + .form-group {
+  clear: both;
+}
+/* END OF Social Media Login Styling */
+.no_bold {
+  font-weight: normal;
+}

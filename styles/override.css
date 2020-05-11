@@ -1,0 +1,140 @@
+/**
+ *  BELOW ARE styling for bootstrap theme overrides or for pages that requires custom css
+ *  i.e. footer, header, etc
+ */
+h1 {
+  font-size: 36px;  
+  line-height: 36.4px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 15px;
+}
+
+/**
+ * Theme for events shown on center schedules
+ */
+.event_wb, .event_wb a {
+  /*empty since it'll use the default color*/
+}
+
+.event_not_eligible, .event_not_eligible a {
+  background-color:  #C11B17;
+  border-color: #C11B17;
+}
+
+.event_dr, .event_dr a {
+  background-color: #a51d14;
+  border-color: #a51d14;
+}
+
+.event_pp, .event_pp a {
+  background-color: #1799be;
+  border-color: #1799be;
+}
+
+.event_pl, .event_pl a {
+  background-color: #669999;
+  border-color: #669999;
+}
+/* End of calendar events theme */
+
+.popup_header_text {
+  margin-top: -20px;
+}
+
+.table-cell-borderless th, .table-cell-borderless td {
+  border-top: none !important; 
+}
+/* MEDIA QUERIES */
+
+/* queries for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* tabs */
+  .nav-tabs > li {
+    float:none;
+    border:1px solid #dddddd;
+  }
+  .nav-tabs > li.active > a{
+    border:none;
+  }
+  .nav > li > a:hover, .nav > li > a:focus,
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+  {
+    border:none;
+  }
+  .nav-tabs > li.active, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+  {
+    background-color: #00416b;
+    color: #fff;
+  }
+  /*needed to set this for responsive to work*/
+  div.responsive_content {
+    width:100%;
+  }
+   /* no need for paddings on a small view */
+
+  .tab_section {
+    padding: 0;
+    border: none;
+    padding-right: -15px;
+    padding-left: -15px;
+  }
+  .bordered {
+    padding: 0px;
+  }
+  .container-fluid {
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  .table-responsive  {
+    overflow-x: auto;
+  }
+
+  .row-fluid {
+    padding: 0;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+}
+
+.radio label {
+    cursor: auto;
+}
+
+/*only apply override to BoostrapDialog modals (regular bootstrap not affected)*/
+.bootstrap-dialog .modal-header .close {
+  color: #fff;
+  opacity: 0.7;
+}
+.bootstrap-dialog .modal-header .close:focus, .bootstrap-dialog .modal-header .close:hover {
+  opacity: 1;
+}
+/* change colors back to default */
+.bootstrap-dialog .type-default .modal-header .close {
+  color: #000;
+  opacity: .2;
+}
+.bootstrap-dialog .type-default .modal-header .close:focus, .type-default .modal-header .close:hover {
+  opacity: .5;
+}
+
+/*fullcalendar override*/
+div.fc-scroller.fc-day-grid-container {
+  overflow-y: hidden !important;
+  height: auto !important;
+}

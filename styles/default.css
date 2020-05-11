@@ -1,0 +1,603 @@
+/* basic html */
+body {
+  background: #fff;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #333;
+  padding: 0px;
+  padding-top: 50px; /*MAY NEED TO CHANGE THIS PER CLIENT*/
+  margin: 0px;
+  font-size:  100%;
+  height:  100%;
+}
+
+body,html {
+   height: 100%;
+}
+
+body.popup {
+  background-color: #fff;
+  background-image: none;
+  color: #232525;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h1.popup_header_text , h2.popup_header_text{
+  color: #232525;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 24px;
+}
+
+body.popup h3 {
+  font-size: 24px;
+}
+body.popup h3, body.popup h5{
+  color: #232525;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+body.popup h6 {
+    font-size: 14px;
+    color: #232525;
+    font-weight: 700;
+}
+
+#popup_links i, #popup_links a{
+  color: #373c3b;
+}
+
+/* rules */
+hr {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+/* headings */
+h1 {
+  font-size: 36px;  
+  line-height: 36.4px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+}
+
+/* DEFAULT Styling for footer */
+#footer {
+  background-color: #383A35;  
+  color: #fff;
+  padding-top: 20px;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none;
+}
+/* link */
+#footer a:link, #footer a:visited, #footer a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* mouse over link */
+#footer a:hover , #footer a:focus {
+    color: #d9534f;
+    text-decoration: none;
+    background: none;
+}
+
+/* End of Styling for footer */
+#body-container {
+ padding: 0px;
+}
+#menu_item_navbar {
+  margin-bottom: 0px;
+  border: 0px;
+  border-radius: 0px;
+}
+#main-content {
+  padding: 0px;
+  margin: 0px;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/**
+ * Responsive sidebars default
+ */
+
+/* THIS IS TO MAKE sidebar and main-content be of equal height */
+div.responsive_sidebar {
+  background-color: #E6E7E8;  
+  color: #383A35;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+div.responsive_content {
+  display: flex;
+  flex-direction: column;
+}
+div.sidebar_body {
+  display: block;
+}
+.responsive_sidebar_header {
+  text-align: center;
+}
+.responsive_sidebar_header h4 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0675AC;
+}
+/* sidebar headings */
+.responsive_sidebar_body h1, .responsive_sidebar_body h2, .responsive_sidebar_body h3, .responsive_sidebar_body h4, .responsive_sidebar_body h5, .responsive_sidebar_body h6 {
+  font-weight: bold;
+}
+.responsive_sidebar_body h4 {
+  font-size: 16px;
+}
+
+/* user info (image circle) */
+#snapshot-user-info .img-circle {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 5px #0675AC;
+}
+/**** End of responsive sidebar defaults ****/
+
+/**
+ * Yellow Side bar defaults
+ */
+div.yellow_sidebar_wrapper {
+  width: 100%;
+}
+div.yellow_sidebar_body {
+  background: transparent;
+}
+div.home_link {
+  top: -53px;
+}
+h1.title , h2.title {
+  border-bottom: 0px;
+}
+.htt-icon-1x {
+  font-size: 1em;
+  line-height: 1em;
+}
+.htt-icon-1_5x {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+.htt-icon-2x {
+  font-size: 2em;
+  line-height: 2em;
+}
+.htt-icon-3x {
+  font-size: 3em;
+  line-height: 3em;
+}
+.htt-icon-4x {
+  font-size: 4em;
+  line-height: 4em;
+}
+.htt-icon-5x {
+  font-size: 5em;
+  line-height: 5em;
+}
+.htt-icon-6x {
+  font-size: 6em;
+  line-height: 6em;
+}
+.htt-icon-7x {
+  font-size: 7em;
+  line-height: 7em;
+}
+.htt-icon-8x {
+  font-size: 8em;
+  line-height: 8em;
+}
+.htt-icon-9x {
+  font-size: 9em;
+  line-height: 9em;
+}
+.htt-icon-10x {
+  font-size: 10em;
+  line-height: 10em;
+}
+.htt-icon-11x {
+  font-size: 11em;
+  line-height: 11em;
+}
+.htt-icon-12x {
+  font-size: 12em;
+  line-height: 12em;
+}
+.htt-text {
+  
+}
+.htt-icon {
+  min-height: 50px;
+  height: auto;
+  display:inline-block;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;  
+}
+.htt-icon::before {
+  position: relative;
+  top: -10px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  opacity: 1;
+  height: 50px;
+  width: 50px;
+}
+.htt-icon::after {
+  position: relative;
+  bottom: -12px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  opacity: 1;
+  height: 50px;
+  width: 50px;
+}
+span.htt-icon {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+  text-align: center;
+}
+form label.control-label {
+  width: 200px;
+}
+form input[type=file] {
+  display: inline-block;
+}
+form label {
+  display: inline-block;
+  padding-top: 3px !important;
+  font-size: 0.8em;
+}
+form label.value { 
+  font-weight: normal;
+}
+form input.form-control {
+  display: inline-block;
+  min-width: 300px;
+  width: auto;
+}
+form select.form-control {
+  display: inline-block;
+  min-width: 300px;
+  width: auto;
+}
+form select.narrow {
+  min-width: 100px;
+}
+form input.narrow {
+  min-width: 100px;
+}
+@media (min-width: 768px) {
+  form input.form-control {
+    display: inline-block;
+    min-width: 300px;
+    width: auto;
+  }
+  form select.form-control {
+    display: inline-block;
+    min-width: 300px;
+    width: auto;
+  }
+}
+.text-wrap{
+    white-space:normal;
+    word-wrap:break-word; 
+}
+/*
+Firefox has some awkward fieldset styling involving width that interferes with the responsive table. 
+This cannot be overridden without a Firefox-specific hack that we donâ€™t provide in Bootstrap:
+https://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content/17863685#17863685
+*/
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+.table.table-no-border>thead>tr>th, 
+.table.table-no-border>tbody>tr>th, 
+.table.table-no-border>tfoot>tr>th, 
+.table.table-no-border>thead>tr>td, 
+.table.table-no-border>tbody>tr>td, 
+.table.table-no-border>tfoot>tr>td {
+  border-top: none; 
+}
+
+.container-fluid {
+  margin-left: 10px !important;
+  margin-right: 0 !important;
+}
+
+.responsive_sidebar_body ul {
+  margin: 0;
+}
+div.list_section ul {
+  margin-left: 15px;
+}
+div.list_section h4 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.tooltip.top {
+  background: transparent;
+  border: none;
+}
+
+ul li .label, ul li .value {
+ white-space:normal;
+}
+
+ul li .value {
+ vertical-align: bottom; 
+}
+/* this is to make sure the divider between My Account and Logout is vertically aligned*/
+ul#right-nav-menu li.divider-vertical {
+  vertical-align: middle;
+  padding-top: 12px;
+}
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+
+img#logo {
+  height: 100%;
+}
+
+.icon-16 { width: 16px; height: 16px; }
+.icon-24 { width: 24px; height: 24px; }
+.icon-32 { width: 32px; height: 32px; }
+.icon-48 { width: 48px; height: 48px; }
+.icon-64 { width: 64px; height: 64px; }
+.icon-128 { width: 128px; height: 128px; }
+
+form.form-horizontal .control-label {
+  text-align: left;
+}
+
+/* social media login page */
+.auth-btn, .auth-btn .icon {
+  border-radius: 5px;
+}
+
+.auth-btn {
+  background: transparent none repeat scroll 0 0;
+  cursor: pointer;
+  display: table;
+  font-weight: bold;
+  height: 37px;
+  line-height: 1.2em;
+  margin-bottom: 12px;
+  overflow: hidden;
+  padding: 0 10px 0 45px;
+  position: relative;
+  width: 130px;
+}
+
+.auth-btn .icon {
+  background-repeat: no-repeat;
+  display: block;
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 37px;
+}
+
+.auth-btn:hover .icon {
+  border-radius: 0;
+}
+
+.auth-btn .message {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.auth-btn:hover .message {
+  color: #fff;
+}
+
+.auth-btn.auth-btn-facebook {
+  color: #3b5998;
+}
+
+.auth-btn.auth-btn-facebook:hover, .auth-btn.auth-btn-facebook .icon {
+  background-color: #3b5998;
+}
+
+.auth-btn.auth-btn-facebook:hover .icon {
+  background-color: transparent;
+}
+
+.auth-btn.auth-btn-google {
+  color: #dd4b39;
+}
+
+.auth-btn.auth-btn-google:hover, .auth-btn.auth-btn-google .icon {
+  background-color: #dd4b39;
+}
+
+.auth-btn.auth-btn-google:hover .icon {
+  background-color: transparent;
+}
+
+.auth-btn.auth-btn-facebook, .auth-btn.auth-btn-google, .auth-btn.auth-btn-facebook, .auth-btn.auth-btn-google {
+  float: none;
+  margin: auto auto 15px;
+}
+
+.auth-btn.auth-btn-facebook {
+  float: left;
+}
+
+.auth-btn.auth-btn-google {
+  float: right;
+}
+
+.valign-sub {
+  vertical-align: sub;
+}
+
+.bordered {
+  border: 1px solid #dcdcdc;
+  padding: 5px;
+}
+
+.welcome_icon a {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+}
+
+.welcome_icon {
+  cursor: pointer;
+}
+
+/* Default icons */
+.welcome_icon_donations a {
+  background: url(../images/donor/my_donations.svg) center center no-repeat;
+}
+.welcome_icon_test_results a {
+  background: url(../images/donor/my_test_results.svg) center center no-repeat;
+}
+.welcome_icon_account a {
+  background: url(../images/donor/my_account.svg) center center no-repeat;
+}
+.welcome_icon_donate a {
+  background: url(../images/donor/donate_now.svg) center center no-repeat;
+}
+.welcome_icon_store a {
+  background: url(../images/donor/online_store.svg) center center no-repeat;
+}
+.welcome_icon_surveys a {
+  background: url(../images/donor/rate_our_staff.svg) center center no-repeat;
+}
+.welcome_icon_appointments a {
+  background: url(../images/donor/my_appointments.svg) center center no-repeat;
+}
+.welcome_icon_health_questionnaire a {
+  background: url(../images/donor/health_questionnaire.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_my_drives a {
+  background: url(../images/coordinator/drives.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_my_marketing a {
+  background: url(../images/coordinator/marketing.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_my_resources a {
+  background: url(../images/coordinator/resources.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_my_results a {
+  background: url(../images/coordinator/results.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_my_messages a {
+  background: url(../images/coordinator/messages.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_store a {
+  background: url(../images/coordinator/store.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_rate_my_drive a {
+  background: url(../images/coordinator/survey.svg) center center no-repeat;
+}
+.welcome_icon_coordinator_my_account a {
+  background: url(../images/coordinator/settings.svg) center center no-repeat;
+}
+.marketing_icon_coordinator_new_email a {
+  background: url(../images/coordinator/marketing/new_email.svg) center center no-repeat;
+}
+.marketing_icon_coordinator_email_results a {
+  background: url(../images/coordinator/marketing/email_results.svg) center center no-repeat;
+}
+.marketing_icon_coordinator_target_group a {
+  background: url(../images/coordinator/marketing/target_group.svg) center center no-repeat;
+}
+.marketing_icon_coordinator_donor_pool a {
+  background: url(../images/coordinator/marketing/donor_pool.svg) center center no-repeat;
+}
+.resources_icon_coordinator_order_supplies a {
+  background: url(../images/coordinator/resources/order_supplies.svg) center center no-repeat;
+}
+.resources_icon_coordinator_reminder_email a {
+  background: url(../images/coordinator/resources/reminder_email.svg) center center no-repeat;
+}
+.resources_icon_coordinator_tips a {
+  background: url(../images/coordinator/resources/tips.svg) center center no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* apply bootstrap defaults on smaller view */
+  form select.form-control {
+    width: 100%;
+    min-width: initial;
+  }
+  form input.form-control {
+    width: 100%;
+    min-width: initial;
+  }
+  .center-block .btn {
+    margin-bottom: 5px;
+  }
+  .mce-panel { 
+    overflow: scroll;
+  }
+  .email_preview_container {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .pick_message_dialog {
+    max-width: 720px !important;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.overflow_scroll_both {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 768px) {
+  .pick_message_dialog {
+    width: 720px !important;
+  }
+}

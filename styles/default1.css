@@ -1,0 +1,33 @@
+/*
+ * Fixed defaults
+ */
+
+body {
+  padding: 0;
+}
+
+ form label {
+   font-size: 100%;
+ }
+ 
+.donation-history .donation-history-container .label {
+  color: #333;
+  font-size: 100%;
+  padding-left: 0px;
+}
+ 
+.donation-history {
+  border: 1px solid #DCDCDC;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+hr.total_divider {
+  border-color: inherit;
+}
+
+div.list_section h4 {
+  padding-bottom: 0px;
+  padding-top: 12px;
+}
